@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/main.css" rel="stylesheet">
+    <title>About</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar bg-base-200">
+        <div class="flex-1">
+            <a href="/" class="text-lg font-bold">Climate Solutions</a>
+        </div>
+        <div class="flex-none">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="/">Home</a></li>
+                <li><a class="active" href="/about">About</a></li>
+                <li tabindex="0">
+                    <a>
+                        Sector
+                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5z"></path>
+                        </svg>
+                    </a>
+                    <ul class="p-2 bg-base-100">
+                        <li><a href="/solutions/projects?sector=Land%20Sinks">Land Sinks</a></li>
+                        <li><a href="/solutions/projects?sector=Industry">Industry</a></li>
+                        <li><a href="/solutions/projects?sector=Transportation">Transportation</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container mx-auto mt-10">
+        <div class="hero bg-base-200 p-8">
+            <div class="hero-content text-center">
+                <div class="max-w-md">
+                    <h1 class="text-5xl font-bold">About Me</h1>
+                    <p class="py-6">All about me, my hobbies, and what I am studying.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Grid Section -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+            
+            <!-- Left Column: Image -->
+            <div class="flex justify-center">
+                <img src="/img/rohan.jpg" alt="My Picture" class="rounded-lg shadow-lg">
+            </div>
+
+            <!-- Right Column: Text About Me -->
+            <div class="flex flex-col justify-center">
+                <h2 class="text-3xl font-bold">Hi, I'm Rohan!</h2>
+                <p class="mt-4 text-lg">
+                    I love to hit the gym, enjoy cooking, and playing guitar in my free time. I'm currently pursuing a course in Computer Programming, where I'm learning various programming languages and technologies.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
